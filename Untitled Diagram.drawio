@@ -1,9 +1,38 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="EmIVNkYcgQ2qETy2m_0B">
-    <mxGraphModel>
+    <mxGraphModel dx="653" dy="768" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lNYvK_dQwGBF8jCweb_R-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="lNYvK_dQwGBF8jCweb_R-4" target="lNYvK_dQwGBF8jCweb_R-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYvK_dQwGBF8jCweb_R-4" value="USER&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="79" y="85" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYvK_dQwGBF8jCweb_R-15" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="lNYvK_dQwGBF8jCweb_R-12" target="lNYvK_dQwGBF8jCweb_R-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYvK_dQwGBF8jCweb_R-12" value="Frontend&lt;div&gt;(HTML,CSS,Jinja2)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="192" y="65" width="115" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYvK_dQwGBF8jCweb_R-17" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="lNYvK_dQwGBF8jCweb_R-14" target="lNYvK_dQwGBF8jCweb_R-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYvK_dQwGBF8jCweb_R-14" value="Gemini 2.0" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="424.5" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYvK_dQwGBF8jCweb_R-19" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="lNYvK_dQwGBF8jCweb_R-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="487" y="422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lNYvK_dQwGBF8jCweb_R-16" value="MySQL&lt;div&gt;()&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="433" y="230" width="108" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYvK_dQwGBF8jCweb_R-20" value="Output&lt;div&gt;(Precised ingredients in grams)&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="437" y="427" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
